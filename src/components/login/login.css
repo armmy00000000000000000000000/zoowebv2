@@ -1,0 +1,83 @@
+/* styles.css */
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#18c13d, #199e36);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#18c13d, #199e36);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+/* ทำให้ section ครอบคลุมเต็มความสูงของ viewport */
+.full-height {
+  /* height: 100vh; */
+  overflow: hidden; 
+}
+
+/* ในไฟล์ CSS ของคุณ */
+.btn-facebook-blue {
+  background-color: #1877f2; /* สีฟ้าของ Facebook */
+  color: white; /* ข้อความสีขาว */
+  border: none; /* ไม่ให้มีกรอบ */
+  border-radius: 5px; /* ปรับความโค้งของมุม */
+  padding: 10px 20px; /* ขนาดของปุ่ม */
+  font-size: 16px; /* ขนาดของข้อความ */
+ 
+}
+
+.btn-facebook-blue i {
+  margin-right: 8px; /* ระยะห่างระหว่างไอคอนและข้อความ */
+}
+
+.btn-line-sucsess {
+  background-color: #14c011; /* สีฟ้าของ Facebook */
+  color: white; /* ข้อความสีขาว */
+  border: none; /* ไม่ให้มีกรอบ */
+  border-radius: 5px; /* ปรับความโค้งของมุม */
+  padding: 10px 20px; /* ขนาดของปุ่ม */
+  font-size: 16px; /* ขนาดของข้อความ */
+
+}
+.btn-line-success {
+  background-color: #00c300; /* เปลี่ยนเป็นสีพื้นหลังที่คุณต้องการ */
+  color: white; /* เปลี่ยนสีข้อความให้เป็นสีขาว */
+  border: none; /* ลบเส้นขอบถ้าต้องการ */
+}
+
+.btn-line-success img {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+

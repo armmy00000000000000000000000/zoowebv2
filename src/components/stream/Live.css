@@ -1,0 +1,782 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Kanit", sans-serif;
+}
+.Live{
+    box-sizing: border-box;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.Heading1 {
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+
+}
+@media only screen and (max-width: 600px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 37%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+@media only screen and (max-width: 375px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 34%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media only screen and (max-width: 360px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 36%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (max-width: 450px) and (max-width: 550px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 33%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 440px)  {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 33%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 540px)  {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 29%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 520px)  {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 29%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 640px)  {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 25%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 650px)  {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 25%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 667px)  {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom:0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 800px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 29%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+  @media screen and (min-width: 700px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 29%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 710px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 23%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 709px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 23%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 23%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 740px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 750px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 22%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 1000px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 1280px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+  @media screen and (min-width: 896px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  
+
+  @media screen and (min-width: 820px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 30%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 1180px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 1366px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 1366px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 720px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 853px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 28%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 914px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  @media screen and (min-width: 896px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+    /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 844px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 932px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+/* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1024px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+
+/* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1040px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+ 
+/* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1090px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 21%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+ 
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 746px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 29%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 617px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 29%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 920px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 20%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+ 
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 820px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 25%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 980px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 22%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 375px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 32%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+
+ /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+ @media screen and (orientation: portrait) and (min-width: 1024px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+      bottom: 26%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+
+@media screen and (orientation: portrait) and (min-width: 768px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 25%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 760px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 20%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 718px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 21%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 670px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 23%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 644px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 25%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 616px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 28%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 1090px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 22%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 980px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 22%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+@media screen and (orientation: portrait) and (min-width: 930px) {  
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 22%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 1020px) {  
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute สำหรบแนวตั้ง*/
+        bottom: 19%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1110px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 15%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1860px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1820px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1750px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1720px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1620px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1500px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1400px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1300px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวนอน (landscape) ที่กว้างกว่า 1024px */
+@media screen and (orientation: landscape) and (min-width: 1100px) {
+  .Heading1 {
+      position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+      bottom: 0%; /* ปรับระยะห่างจากด้านล่าง */
+      left: 0; /* ให้ชิดขอบซ้าย */
+      color: #f1f1f1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+}
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 1250px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 28%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 500px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 28%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+  /* สำหรับแนวตั้ง (portrait) ที่กว้างกว่า 1024px */
+  @media screen and (orientation: portrait) and (min-width: 1300px) {
+    .Heading1 {
+        position: absolute; /* เปลี่ยนจาก fixed เป็น absolute */
+        bottom: 23%; /* ปรับระยะห่างจากด้านล่าง */
+        left: 0; /* ให้ชิดขอบซ้าย */
+        color: #f1f1f1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+  }
+.Heading1 > img {
+    width: auto; /* ปรับความกว้างอัตโนมัติ */
+    height:100%; /* กำหนดความสูงของภาพ */
+    max-width: 100%; /* ทำให้ภาพไม่เกินขนาดของหน้าจอ */
+}
+

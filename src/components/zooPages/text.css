@@ -1,0 +1,55 @@
+Container สำหรับการวิ่ง
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  background: #f8f9fa; /* สีพื้นหลัง */
+  padding: 10px 20px; /* เพิ่มช่องว่างรอบๆ */
+  border-bottom: 2px solid #dee2e6; /* ขอบด้านล่าง */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* เงาเบา */
+}
+
+/* ตกแต่งข้อความและรูปภาพ */
+.marquee-text {
+  display: inline-flex; /* ใช้ inline-flex เพื่อจัดการแนวการเรียง */
+  align-items: center; /* จัดแนวกลางแนวตั้ง */
+  animation: marquee 20s linear infinite;
+}
+
+/* ตกแต่งรูปภาพ */
+.marquee-image {
+  height: 60px; /* ปรับความสูงของรูปภาพ */
+  margin-right: 15px; /* ช่องว่างระหว่างรูปภาพ */
+  border-radius: 8px; /* มุมโค้งของรูปภาพ */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* เงาเบา */
+}
+
+/* ตกแต่งข้อความ */
+.marquee h5 {
+  font-size: 1.2rem; /* ขนาดตัวอักษร */
+  color: #343a40; /* สีของข้อความ */
+  margin: 0; /* ลบช่องว่างบนและล่างของข้อความ */
+  font-weight: 500; /* หนักปานกลาง */
+  padding-left: 15px; /* ช่องว่างด้านซ้ายของข้อความ */
+  white-space: nowrap; /* ข้อความจะไม่ขึ้นบรรทัดใหม่ */
+}
+
+/* การเคลื่อนไหวของแถบข้อความ */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+
+
+  
+  /* .marquee-image {
+    height: 40px; 
+    margin-right: 15px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  } */
